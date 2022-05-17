@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>webappday27</display-name>
+  
+ 
+  <servlet>
+     <servlet-name>QueryStringServlet</servlet-name>
+     <servlet-class>ai.jobiak.app.QueryStringServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>QueryStringServlet</servlet-name>
+    <url-pattern>/sent</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+     <servlet-name>SignupFormServlet</servlet-name>
+     <servlet-class>ai.jobiak.app.SignupFormServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SignupFormServlet</servlet-name>
+    <url-pattern>/signup</url-pattern>
+  </servlet-mapping>
+ <!--  <servlet>
+     <servlet-name>A</servlet-name>
+     <servlet-class>ai.jobiak.http.A</servlet-class>
+  </servlet>
+ 
+  -->
+ <!-- <servlet>
+     <servlet-name>B</servlet-name>
+     <servlet-class>ai.jobiak.http.B</servlet-class>
+  </servlet> -->
+  
+ <!-- <servlet>
+     <servlet-name>C</servlet-name>
+     <servlet-class>ai.jobiak.http.C</servlet-class>
+  </servlet>
+ 
+ <servlet>
+ -->    
+  <servlet-name>CalculatorServlet</servlet-name>
+     <servlet-class>ai.jobiak.http.CalculatorServlet</servlet-class>
+  </servlet>
+  
+   <servlet>
+     <servlet-name>Factorial</servlet-name>
+     <servlet-class>ai.jobiak.http.Factorial</servlet-class>
+  </servlet>
+  
+   <servlet>
+     <servlet-name>MathTable</servlet-name>
+     <servlet-class>ai.jobiak.http.MathTable</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MathTable</servlet-name>
+    <url-pattern>/mathtable</url-pattern>
+  </servlet-mapping>
+	</web-app>
+	
+	
+	
